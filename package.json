@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy-prod": "ng deploy --base-href=/landing-page/",
+    "build-prod": "ng build --configuration production  --base-href=/landing-page/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
